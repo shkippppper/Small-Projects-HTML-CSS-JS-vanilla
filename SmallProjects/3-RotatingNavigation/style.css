@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+
+}
+
+.everything{
+    margin: 0;
+    background-color: white;
+}
+
+#background{
+    background-color: rgb(91, 12, 12);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+}
+
+#background-white{
+    transform-origin: 0% 0%;
+    background-color: rgb(221, 211, 211);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.5s ease;
+
+}
+
+.background-white-hover{
+    transform: rotate(-15deg);
+}
+
+
+.container{
+    transform-origin: 0% 0%;
+    max-width: 1000px;
+    margin: 80px auto;
+    transition: transform 0.5s ease;
+    transform: rotate(0deg);
+}
+
+.container-hover{
+    transform: rotate(-15deg);
+}
+
+.content h1{
+    margin: 10px 0px;
+}
+
+.content small{
+    font-style: italic;
+    color: gray;
+}
+
+.content p{
+    margin: 20px 0px;
+}
+
+.content h3{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.content img{
+    border-radius: 60px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.navigation{
+    background-color: azure;
+}
+
+.navigation .links{
+    position: absolute;
+    left: -150px;
+    bottom: 100px;
+    display: flex;
+    line-height: 80px;
+    flex-direction: column;
+    transition: transform 0.3s ease-in;
+
+}
+
+.navigation .links a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+
+.nav-hover{
+    transform: translateX(200px);
+
+}
+
+.navbar{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: crimson;
+    left: -100px;
+    top: -100px;
+    transition: transform 0.5s ease-in-out;
+    transform-origin: center;    
+}
+
+.hamburger{
+    position: absolute;
+    font-size: 25px;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+}
+
+.close-hamburger{
+    font-size: 25px;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    cursor: pointer;
+}
+
+.navbar-hover{
+    transform: rotate(-90deg);
+}
+
