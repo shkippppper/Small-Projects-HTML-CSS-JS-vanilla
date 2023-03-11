@@ -3,7 +3,7 @@
 
 
 | # | Project       | Live Demo     | 
-|:--:| :------------------------------------------------------------------------------------------------------------------------------ | :------------: |
+|:--:| :---------------------------------------------------------------------------------------------------------------------------------------- | :------------: |
 | 1 | [Expanding Cards](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/1-ExpandingCards)  | [Live Demo]()  |
 | 2 | [Progress Steps](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/2-ProgressSteps)  | [Live Demo]()  |
 | 3 | [Rotating Navigation Animation](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/3-RotatingNavigation)  | [Live Demo]()  |
@@ -18,39 +18,40 @@
 | 12 | [Faq Collapse](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/12-FaqCollapse)  | [Live Demo]()  |
 | 13 | [Random Choice Picker](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/13-RandomChoicePicker)  | [Live Demo]()  |
 | 14 | [Animated Navigation](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/14-AnimatedNavigation)  | [Live Demo]()  |
-| 15 | [Incrementing Counter]  | [Live Demo]()  |
-| 16 | [Drink Water]  | [Live Demo]()  |
-| 17 | [Movie App]  | [Live Demo]()  |
-| 18 | [Background Slider]  | [Live Demo]()  |
-| 19 | [Theme Clock]  | [Live Demo]()  |
-| 20 | [Button Ripple Effect]  | [Live Demo]()  |
-| 21 | [Drag N Drop]  | [Live Demo]()  |
-| 22 | [Drawing App]  | [Live Demo]()  |
-| 23 | [Kinetic Loader]  | [Live Demo]()  |
-| 24 | [Content Placeholder]  | [Live Demo]()  |
-| 25 | [Sticky Navbar]  | [Live Demo]()  |
-| 26 | [Double Vertical Slider]  | [Live Demo]()  |
-| 27 | [Toast Notification]  | [Live Demo]()  |
-| 28 | [Github Profiles]  | [Live Demo]()  |
-| 29 | [Double Click Heart]  | [Live Demo]()  |
-| 30 | [Auto Text Effect]  | [Live Demo]()  |
-| 31 | [Password Generator]  | [Live Demo]()  |
-| 32 | [Good Cheap Fast]  | [Live Demo]()  |
-| 33 | [Notes App]  | [Live Demo]()  |
-| 34 | [Animated Countdown]  | [Live Demo]()  |
-| 35 | [Image Carousel]  | [Live Demo]()  |
-| 36 | [Hoverboard]  | [Live Demo]()  |
-| 37 | [Pokedex]  | [Live Demo]()  |
-| 38 | [Mobile Tab Navigation]  | [Live Demo]()  |
-| 39 | [Password Strength Background]  | [Live Demo]()  |
-| 40 | [3d Background Boxes]  | [Live Demo]()  |
-| 41 | [Verify Account Ui]  | [Live Demo]()  |
-| 42 | [Live User Filter]  | [Live Demo]()  |
-| 43 | [Feedback Ui Design]  | [Live Demo]()  |
-| 44 | [Custom Range Slider]  | [Live Demo]()  |
-| 45 | [Netflix Mobile Navigation]  | [Live Demo]()  |
-| 46 | [Quiz App]  | [Live Demo]()  |
-| 47 | [Testimonial Box Switcher]  | [Live Demo]()  |
-| 48 | [Random Image Feed]  | [Live Demo]()  |
-| 49 | [Todo List]  | [Live Demo]()  |
-| 50 | [Insect Catch Game]  | [Live Demo]()  |
+| 15 | [Incrementing Counter](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/15-IncrementingCounter)  | [Live Demo]()  |
+| 16 | [Drink Water](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/16-DrinkWater)  | [Live Demo]()  |
+| 17 | [Movie App](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/17-MovieApp)  | [Live Demo]()  |
+| 18 | [Background Slider](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/18-BackgroundSlider)  | [Live Demo]()  |
+| 19 | [Theme Clock](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/19-ThemeClock)  | [Live Demo]()  |
+| 20 | [Button Ripple Effect](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/20-ButtonRippleEffect)  | [Live Demo]()  |
+| 21 | [Drag N Drop](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/21-DragNDrop)  | [Live Demo]()  |
+| 22 | [Drawing App](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/22-DrawingApp)  | [Live Demo]()  |
+| 23 | [Kinetic Loader](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/23-KineticLoader)  | [Live Demo]()  |
+| 24 | [Content Placeholder](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/24-ContentPlaceholder)  | [Live Demo]()  |
+| 25 | [Sticky Navbar](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/25-StickyNavbar)  | [Live Demo]()  |
+| 26 | [Double Vertical Slider](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/26-DoubleVerticalSlider)  | [Live Demo]()  |
+| 27 | [Toast Notification](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/27-ToastNotification)  | [Live Demo]()  |
+| 28 | [Github Profiles](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/28-GithubProfiles)  | [Live Demo]()  |
+| 29 | [Double Click Heart](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/29-DoubleClickHeart)  | [Live Demo]()  |
+| 30 | [Auto Text Effect](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/30-AutoTextEffect)  | [Live Demo]()  |
+| 31 | [Password Generator](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/31-PasswordGenerator)  | [Live Demo]()  |
+| 32 | [Good Cheap Fast](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/31-PasswordGenerator)  | [Live Demo]()  |
+| 33 | [Notes App](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/33-NotesApp)  | [Live Demo]()  |
+| 34 | [Animated Countdown](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/34-AnimatedCountDown)  | [Live Demo]()  |
+| 35 | [Image Carousel](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/35-ImageCarousel)  | [Live Demo]()  |
+| 36 | [Hoverboard](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/36-Hoverboard)  | [Live Demo]()  |
+| 37 | [Pokedex](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/37-Pokedex)  | [Live Demo]()  |
+| 38 | [Mobile Tab Navigation](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/38-MobileTabNavigation)  | [Live Demo]()  |
+| 39 | [Password Strength Background](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/39-PasswordStrengthBackground)  | [Live Demo]()  |
+| 40 | [3d Background Boxes](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/40-3dBackgroundBoxes)  | [Live Demo]()  |
+| 41 | [Verify Account Ui](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/41-VerifyAccountUI)  | [Live Demo]()  |
+| 42 | [Live User Filter](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/42-LiveUserFilter)  | [Live Demo]()  |
+| 43 | [Feedback Ui Design](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/43-FeedbackUIDesign)  | [Live Demo]()  |
+| 44 | [Custom Range Slider](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/44-CustomRangeSlider)  | [Live Demo]()  |
+| 45 | [Netflix Mobile Navigation](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/45-NetflixMobileNavigation)  | [Live Demo]()  |
+| 46 | [Quiz App](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/46-QuizApp)  | [Live Demo]()  |
+| 47 | [Testimonial Box Switcher](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/47-TestimonialBoxSwitcher)  | [Live Demo]()  |
+| 48 | [Random Image Feed](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/48-RandomImageFeed)  | [Live Demo]()  |
+| 49 | [Todo List](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/49-ToDoList)  | [Live Demo]()  |
+| 50 | [Insect Catch Game](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/50-InsectCatchGame)  | [Live Demo]()  |
+| 51 | [TicTacToe]  | [Live Demo]()  |
