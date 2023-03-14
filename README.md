@@ -55,3 +55,9 @@
 | 49 | [Todo List](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/49-ToDoList)  | [Live Demo]()  |
 | 50 | [Insect Catch Game](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/50-InsectCatchGame)  | [Live Demo]()  |
 | 51 | [TicTacToe]  | [Live Demo]()  |
+
+
+
+
+
+The applications are provided "as is" and without any warranties, including fitness for a particular purpose or merchantability. The user is responsible for any risks associated with using the applications. The authors or copyright holders will not be held responsible for any damages or liabilities arising from the use of the software, including any loss of data, revenue, or profits. (although nothing to worry about)
