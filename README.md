@@ -55,7 +55,7 @@
 | 49 | [Todo List](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/49-ToDoList)  | [Live Demo]()  |
 | 50 | [Insect Catch Game](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/50-InsectCatchGame)  | [Live Demo]()  |
 | 51 | [TicTacToe](https://github.com/shkippppper/50-Projects-HTML-CSS-JS/tree/main/SmallProjects/51-TicTacToe)  | [Live Demo]()  |
-
+| 52 | [Color Gradient Maker](https://github.com/shkippppper/Small-Projects-HTML-CSS-JS-vanilla/tree/main/SmallProjects/52-ColorGradientMaker)  | [Live Demo]()  |
 
 
 
