@@ -1,0 +1,229 @@
+:root {
+    --primary-color: #111828;
+    --secondrary-color: hotpink;
+    --white-color: white;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--primary-color);
+
+}
+
+.content{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1.5fr 0.05fr 7fr;
+}
+
+.setup-area{
+    position: sticky;
+    top: 20px;
+    height: calc(100vh - 40px) ;
+    
+}
+
+.content-divider{
+    margin: 4px;
+    width: 2px;
+    background-color: #1B2230;
+    border-radius: 20px;
+
+}
+
+.setup-area-divider{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+table {
+    width: 100%;
+}
+  
+table td, table th {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid plum;
+}
+
+table th:nth-child(1){
+    width: 500px;
+}
+
+table th:nth-child(2){
+    width: 150px;
+}
+
+table th:nth-child(3){
+    width: 220px;
+}
+
+table th:nth-child(4){
+    width: 220px;
+}
+
+table th:nth-child(5){
+    width: 150px;
+}
+
+table td:nth-child(5){
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+table th:nth-child(6){
+    width: 20px;
+}
+
+
+
+select,
+option{
+    
+    background-color: var(--primary-color);
+    border: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+
+td input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+
+td input[type=date]:hover{
+    cursor: pointer;
+}
+
+td input::placeholder{
+    color: var(--secondrary-color);
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+td:has(select){
+    text-align: center;
+}
+
+td button{
+    all: unset;
+    cursor: pointer;
+    text-align: center;
+    color: var(--secondrary-color);
+    transition: all 0.2s ease-in;
+
+}
+
+td button:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+td button:focus{
+    color: white;
+    border-radius: 5px;
+    background-color: var(--secondrary-color);
+}
+
+td:has(button){
+    text-align: center;
+}
+
+
+thead{
+    position: sticky;
+    top: 20px;
+    background-color: var(--primary-color);
+}
+
+thead::before {
+    content: "";
+    position: absolute;
+    top: -48px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: var(--primary-color);
+}
+
+.create-button{
+    text-align: center;
+    margin-right: 15px;
+    
+}
+
+.create-button button{
+    font-size: x-large;
+    background-color: transparent;
+    color: var(--secondrary-color);
+    padding: 5px;
+    border: solid 1px var(--secondrary-color);
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+
+
+.create-button button:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.home-page{
+    display: flex;
+    text-align: center;
+    transform: translate(-8px);
+    height: calc(100% - 400px);
+
+}
+
+.home-page a{
+    width: 100%;
+    margin-top: auto;
+
+}
+
+.home-page-anchor{
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 100%;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    width: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-page-anchor:hover{
+    background-color: rgb(54, 54, 54);
+    background-color: var(--primary-color);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+

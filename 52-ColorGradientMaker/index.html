@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>52-ColorGradientMaker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div class="content">
+        <div class="content-container">
+            <div class="setup">
+
+                <div class="colors">
+                    <input id="colorOne" type="color" name="" id="">
+                    <input id="colorTwo"type="color" name="" id="">
+                </div>
+                <div data-direction="to right" class="arrows">
+                    <button value="to top left"><i class="fa-solid fa-arrow-up"></i></button>
+                    <button value="to top"><i class="fa-solid fa-arrow-up"></i></button>
+                    <button value="to top right"><i class="fa-solid fa-arrow-up"></i></button>
+                    <button value="to left"><i class="fa-solid fa-arrow-up"></i></button>
+                    <button value="none"><i class="fa-regular fa-square"></i></button>
+                    <button value="to right" class="active"><i class="fa-solid fa-arrow-up"></i></button>
+                    <button value="to bottom left"><i class="fa-solid fa-arrow-up"></i></button>
+                    <button value="to bottom"><i class="fa-solid fa-arrow-up"></i></button>
+                    <button value="to bottom right"><i class="fa-solid fa-arrow-up"></i></button>
+                </div>
+            </div>
+            <div class="generate-btn">
+                <button id="generate" >Generate</button>
+            </div>
+            <div class="output">
+                <p id="textToCopy" class="text"></p>
+                <button id="copy">Copy</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

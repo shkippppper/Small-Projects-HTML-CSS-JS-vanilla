@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calendar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+</head>
+<body>
+    <main class="calendar">
+
+        <div class="month">
+            <button class="nav" onclick="UpdateMonth(0)">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+        <div>
+        <span id="monthCalendar"> March </span>  
+        <span id="yearCalendar" class="year">2027</span>
+        </div>
+            <button class="nav" onclick="UpdateMonth(1)">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <div class="days">
+            <span>M</span>
+            <span>T</span>
+            <span>W</span>
+            <span>T</span>
+            <span>F</span>
+            <span>S</span>
+            <span>S</span>
+        </div>
+
+          <div class="dates" id="datesId" >
+              <button id="first" onclick="UpdateSelectedDate(this)">
+                <time>1</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>2</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>3</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>4</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>5</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>6</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time >7</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>8</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>9</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>10</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>11</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>12</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>13</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>14</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>15</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>16</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>17</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>18</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>19</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>20</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>21</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>22</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>23</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>24</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>25</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>26</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>27</time>
+              </button>
+              <button onclick="UpdateSelectedDate(this)">
+                <time>28</time>
+              </button>
+              <button id="day29" onclick="UpdateSelectedDate(this)">
+                <time>29</time>
+              </button>
+              <button id="day30" onclick="UpdateSelectedDate(this)">
+                <time>30</time>
+              </button>
+              <button id="day31" onclick="UpdateSelectedDate(this)">
+                <time>31</time>
+              </button>
+
+              <button style="visibility: hidden;">
+                <time>0</time>
+              </button>
+              <button style="visibility: hidden;">
+                <time>0</time>
+              </button>
+              <button style="visibility: hidden;">
+                <time>0</time>
+              </button>
+              <button style="visibility: hidden;">
+                <time>0</time>
+              </button>
+              <button style="visibility: hidden;">
+                <time>0</time>
+              </button>
+              <button id="flag" style="visibility: hidden;">
+                <time>0</time>
+              </button>
+
+
+
+          </div>
+          <div id="selectedDate" style="display: none;"></div>
+    </main>
+
+    <script src="calendar.js"></script>
+</body>
+</html>

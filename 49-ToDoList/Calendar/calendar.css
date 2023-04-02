@@ -1,0 +1,141 @@
+:root {
+    --primary-color: #111828;
+    --secondrary-color: hotpink;
+    --divider-color: #1B2230;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calendar{
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-color);
+    padding: 10px 10px 5px 10px;
+    border-radius: 5px;
+    /* box-shadow: 0px 40px 30px -20px rgba(0,0,0,0.3); */
+    width: 300px;
+    height: 350px;
+}
+
+.month{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--secondrary-color);
+    text-shadow: 2px 2px 5px black;
+}
+
+.year{
+    font-weight: bold;
+    margin-left: 10px;
+    color: var(--secondrary-color);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    transition-duration: .2s;
+    position: relative;
+    color:  var(--secondrary-color);
+    text-shadow: 2px 2px 5px black;
+}
+
+
+.nav:hover{
+    background-color: var(--divider-color);
+    text-shadow: 2px 2px 5px transparent;
+
+}
+
+.days{
+    font-size: 18px;
+    font-weight: bold;
+    display: grid;
+    justify-content:center;
+    align-items:center;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight:bold;
+    margin-bottom:15px;
+    color: var(--secondrary-color);
+    text-shadow: 2px 2px 5px black;
+}
+
+span{
+    width:21px;
+    justify-self:center;
+    align-self:center;
+    text-align:center;
+}
+
+.dates{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+button{
+    cursor:pointer;
+    outline:0;
+    border:0;
+    background:transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size:18px;
+    justify-self:center;
+    align-self:center;
+    width:35px;
+    height:35px;
+    border-radius:30px;
+    margin:2px;
+    transition-duration:.2s;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+.dates button:hover{
+    color: var(--primary-color);
+    font-weight: bold;
+    background-color: var(--secondrary-color);
+    text-shadow: 2px 2px 5px transparent;
+    
+
+}
+
+
+.dates button:focus{
+    background: var(--secondrary-color);
+    color: white;
+    font-weight:600;
+    text-shadow: 2px 2px 5px transparent;
+    
+}
+
+.today{
+    box-shadow: inset 0px 0px 0px 2px var(--secondrary-color);
+}
+
+
+#first{
+    grid-column-start: 2;
+}
+

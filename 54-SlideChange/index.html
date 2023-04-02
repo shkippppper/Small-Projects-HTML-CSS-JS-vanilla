@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+</head>
+<body>
+
+    <span>
+        <button class="stopButton" onclick="stopStart()">
+            <i class="fa-solid fa-play"></i>
+        </button>
+    </span>
+
+    <span>
+        <button class="startButton" onclick="stopStart()">
+            <i class="fa-solid fa-stop"></i>
+        </button>
+    </span>
+
+    <span>
+        
+        <input type="text" id="input-field-left" class="inputs" value="🙂" maxlength="14">
+    </span>
+
+    <span>
+        <input type="text" id="input-field-right" class="inputs" value="🙃" maxlength="14">
+    </span>
+
+    <div id ="left-side" class="side">
+
+        <h2 class="title">
+            <span id="left-text">🙂</span> 
+        </h2>
+    </div>
+    
+    <div id ="right-side" class="side">
+        <h2 class="title">
+            <span id="right-text">🙃</span> 
+        </h2>
+    </div>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
