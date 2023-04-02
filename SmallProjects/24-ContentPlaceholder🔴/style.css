@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: #edf0f1;
+}
+
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container .content{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border: 0px solid gray;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.content-container .content .image{
+    height: 50%;
+}
+
+.back{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-container .content h1{
+    border-radius: 15px;
+    width: 350px;
+    height: 25px;
+    font-size: 20px;
+    margin: 20px;
+    text-align: start;
+    letter-spacing: 1.2px;
+}
+
+.content-container .content h2{
+    border-radius: 15px;
+    width: 350px;
+    height: 40px;
+    font-size: 15px;
+    margin: 20px;
+    text-align: start;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    color: #222;
+    font-weight: lighter;
+    
+}
+
+.content-container .content .person .personal{
+    margin: 10px 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+
+.content-container .content .person{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.content-container .content .person .details h3{
+    margin: 10px;
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.content-container .content .person .details h4{
+    margin: 10px;
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    color:#6e6e6e;
+    font-weight: lighter;
+}
+
+
+
+.animated-bg {
+    background-color: #edf0f1;
+    background-image: linear-gradient(
+      to right,
+      #f6f7f8 0%,
+      #edeef1 10%,
+      #f6f7f8 20%,
+      #f6f7f8 100%
+    );
+    background-size: 200% 100%;
+    animation: bgPos 1s linear infinite;
+}
+
+@keyframes bgPos {
+    0% {
+      background-position: 50% 0;
+    }
+  
+    100% {
+      background-position: -150% 0;
+    }
+}
