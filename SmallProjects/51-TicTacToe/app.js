@@ -10,26 +10,28 @@ resetBtn.addEventListener("click", ResetScore);
 var p1Score = document.getElementById("player1Score");
 var p2Score = document.getElementById("player2Score");
 
+const gameStatus = document.getElementById("status");
 
 
 
 
 var player = 1;
 
-
-
-
-
 cells.forEach(cell => {
     
     cell.addEventListener("click", function(cell){
+
+
+
         if(player == 1){
             cell.target.style.pointerEvents = 'none';
-            CreateX(cell.target);
+            gameStatus.innerText = "Player " + player + " Turn"
+            CreateCell(cell.target, "X");
             player = 2; 
         }else{
             cell.target.style.pointerEvents = 'none';
-            CreateO(cell.target);
+            gameStatus.innerText = "Player " + player + " Turn"
+            CreateCell(cell.target, "O");
             player = 1;
         }
     })
@@ -48,34 +50,47 @@ function gameOver() {
         (gameBoard[2] === gameBoard[5] && gameBoard[5] === gameBoard[8] && gameBoard[2] !== '') ||
         (gameBoard[0] === gameBoard[4] && gameBoard[4] === gameBoard[8] && gameBoard[0] !== '') ||
         (gameBoard[2] === gameBoard[4] && gameBoard[4] === gameBoard[6] && gameBoard[2] !== '') 
-    ) {
-        return true
+    ){
+        return player
     }
-    return false
+
+    if(gameBoard.every(element => element !== "")){
+        return 3;
+    }
+
+    else return 0
+
 }
 
 
 
+function CreateCell(cell, value){
 
-function CreateX(cell){
     var newElem = document.createElement("div")
-    newElem.classList.add("cellX");
     cell.appendChild(newElem)
-    UpdateBoard()
-}
+    var cellID = cell.getAttribute("id")
 
-
-
-function CreateO(cell){
-    var newElem = document.createElement("div")
-    newElem.classList.add("cellO");
-    cell.appendChild(newElem)
-    UpdateBoard()
+    if(value === "X"){
+        newElem.classList.add("cellX");
+        UpdateBoard(cellID, "X")
+        setTimeout(() => {
+            newElem.style.backgroundImage = "url('/Images/X-Image.gif')";
+        }, 1500);
+    }else if(value === "O"){
+        newElem.classList.add("cellO");
+        UpdateBoard(cellID, "O")
+        setTimeout(() => {
+            newElem.style.backgroundImage = "url('/Images/O-Image.gif')";
+        }, 1000);
+    }
+    
 }
 
 
 function RestartGame(){
+
     player = 1;
+    gameStatus.innerText = "Player 1 Turn"
     gameBoard = ['', '', '', '', '', '', '', '', ''];
     cells.forEach(cell => {
         cell.style.pointerEvents = "";
@@ -88,29 +103,43 @@ function RestartGame(){
 
 
 function ResetScore(){
-    console.log('ye')
-    player = 1;
+    RestartGame();
     p1Score.innerText = 0;
     p2Score.innerText = 0;
-
 }
 
 function UpdateScore(winner){
     if(winner == 1){
-        p1Score.innerText +=1;
+        p1Score.innerText = Number.parseInt(p1Score.innerText) + 1;
     }else{
-        p2Score.innerText +=1;
+        p2Score.innerText = Number.parseInt(p2Score.innerText) + 1;
     }
 
 }
 
 
-function UpdateBoard(){
-    cells.forEach(function callback(value, index) {
-        if(cells[index].childNodes.length !=0){
-            gameBoard[index] = cells[index].innerHTML;
-            console.log(gameBoard)
-        }        
+function UpdateBoard(cellID, value){
+    gameBoard[cellID] = value
 
-    });
+    if(gameOver() === 1){
+        UpdateScore(1)
+        cells.forEach(cell => {
+            gameStatus.innerText = "Player " + player + " Wins" 
+            cell.style.pointerEvents = 'none';
+            
+        });
+    }else if(gameOver() === 2){
+        UpdateScore(2)
+        cells.forEach(cell => {
+            gameStatus.innerText = "Player " + player + " Wins" 
+            cell.style.pointerEvents = 'none';
+
+        });
+    }else if(gameOver() === 3){
+        gameStatus.innerText = "Draw" 
+
+    }
+
+    
 }
+

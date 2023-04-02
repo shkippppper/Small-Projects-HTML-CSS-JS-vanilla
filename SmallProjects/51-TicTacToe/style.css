@@ -12,7 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 70vh;
 
 }
 
@@ -28,8 +28,8 @@ body{
 .cell{
     
     text-align: center;
-    width: calc(100vh/4);
-    height: calc(100vh/4);
+    width: calc(70vh/4);
+    height: calc(70vh/4);
     background-color: #fffdff;
     cursor: pointer;
 }
@@ -37,7 +37,7 @@ body{
 .cellX{
     width: 100%;
     height: 100%;
-    background-image: url(/Images/X-image.png);
+    background-image: url(/Images/X-gif.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,4 +53,23 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     cursor: default;
+}
+
+.buttons{
+    margin: 20px;
+    text-align: center;
+}
+
+.buttons button{
+    font-size: 20px;
+}
+
+.score{
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
 }
