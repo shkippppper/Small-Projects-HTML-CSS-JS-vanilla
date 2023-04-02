@@ -1,0 +1,28 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    position: absolute;
+    inset: 0px;
+    background-image: url(https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1948&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    filter: blur(100px);
+    z-index: -1;
+
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 50px;
+    opacity: 1;
+}

@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content .container{
+    margin: 20px;
+    text-align: center;
+    min-width: 200px;
+}
+
+.content .container .fa-brands{
+    font-size: 50px;
+    color: white;
+    margin: 20px;
+}
+
+.content .container .number{
+    font-size: 60px;
+    color: white;
+}
+
+.content .container .text{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
