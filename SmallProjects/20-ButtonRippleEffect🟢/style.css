@@ -16,6 +16,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    position: relative;
 
 }
 
@@ -31,11 +32,9 @@ body{
     cursor: pointer;
     border-radius: 10px;
     overflow: hidden;
-
 }
 
 .circle{
-    content: " ";
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -43,7 +42,6 @@ body{
     transform: translate(-50%, -50%) scale(1);
     animation: grow 5s linear;
     z-index: 1;
-
 }
 
 @keyframes grow{

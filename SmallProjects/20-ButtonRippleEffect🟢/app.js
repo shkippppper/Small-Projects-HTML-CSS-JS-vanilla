@@ -16,5 +16,6 @@ function CreateRipple(pageX, pageY){
     setTimeout(() => {
         circle.remove()
         
-    }, 5000);
+        
+    }, 15000);
 }
