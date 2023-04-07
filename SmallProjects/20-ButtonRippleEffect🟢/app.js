@@ -18,4 +18,5 @@ function CreateRipple(pageX, pageY){
         
         
     }, 15000);
+    
 }
