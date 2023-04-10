@@ -1,12 +1,13 @@
 const contentEl = document.querySelector(".content");
 const totalPower = document.querySelector(".total-power");
 const createBtn = document.querySelector(".create");
-const contentElElements = document.querySelectorAll(".card");
+const totalPowerEl = document.querySelector(".content p")
 
-const totalPokemon = 1015;
+const totalPokemon = 1010;
 
 createBtn.addEventListener("click", function(){
-
+    var totalPowerT = 0;
+    var contentElElements = document.querySelectorAll(".card");
     contentElElements.forEach(contentElement => {
         contentElement.remove()
     });
@@ -14,7 +15,8 @@ createBtn.addEventListener("click", function(){
     totalPower.classList.remove("invisible");
 
 
-    for (let index = 0; index < 1; index++) {
+    for (let index = 0; index < 6; index++) {
+
         const randomNum = Math.floor(Math.random() * totalPokemon) + 1;
         
         fetch(`https://pokeapi.co/api/v2/pokemon/${randomNum}/`)
@@ -29,12 +31,14 @@ createBtn.addEventListener("click", function(){
 
             createCard(pokemonId,pokemonName,pokemonType,pokemonSprite,pokemonPower)
 
+            totalPowerT += pokemonPower;
+            totalPowerEl.innerHTML = "Total Power Points - "+totalPowerT;
           })
           .catch((error) => {
             console.error(error); // Handle any errors that occur during the fetch request
           });
 
-
+          
     }
 
 })

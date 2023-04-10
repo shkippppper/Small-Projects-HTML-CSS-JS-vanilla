@@ -27,7 +27,6 @@ body{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     margin: 50px;
     border-radius: 20px;
-    /* background-color: rgb(253, 253, 253); */
     background-color: white;
 }
 
@@ -35,14 +34,8 @@ body{
     margin: 10px 25px;
     border-radius: 20px;
     background-color: rgba(215, 215, 215, 0.832);
-    /* background-color: #9dd275; */
-
     width: 150px;
     height: 150px;
-    /* background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
 }
 
 .card .id{
@@ -50,10 +43,28 @@ body{
     font-weight: bolder;
 }
 
+.card .id-pre{
+    width: 120px;
+    height: 19px;
+    margin: 15px 40px;
+    background-color: rgba(215, 215, 215, 0.5);
+    border-radius: 5px;
+
+}
+
 .card .name{
     margin: 10px;
-    text-transform: capitalize;
     font-weight: bold;
+}
+
+.card .name-pre{
+    
+    width: 140px;
+    height: 19px;
+    margin: 10px 30px;
+    background-color: rgba(215, 215, 215, 0.5);
+    border-radius: 5px;
+
 }
 
 .card .type{
@@ -61,10 +72,32 @@ body{
     text-transform: capitalize;
 }
 
+.card .type-pre{
+    
+    width: 120px;
+    height: 19px;
+    margin: 10px 40px;
+    background-color: rgba(215, 215, 215, 0.5);
+    border-radius: 5px;
+
+}
+
+
 .card .power{
     margin: 10px;
     text-transform: capitalize;
 }
+
+.card .power-pre{
+    
+    width: 100px;
+    height: 19px;
+    margin: 10px 50px;
+    background-color: rgba(215, 215, 215, 0.5);
+    border-radius: 5px;
+
+}
+
 
 button {
     position: fixed;
