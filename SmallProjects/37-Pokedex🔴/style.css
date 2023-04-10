@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #caffd3, #f9ffc9);
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin: 50px;
+    border-radius: 20px;
+    /* background-color: rgb(253, 253, 253); */
+    background-color: white;
+}
+
+.card .image{
+    margin: 10px 25px;
+    border-radius: 20px;
+    background-color: rgba(215, 215, 215, 0.832);
+    /* background-color: #9dd275; */
+
+    width: 150px;
+    height: 150px;
+    /* background-image: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+.card .id{
+    margin: 15px;
+    font-weight: bolder;
+}
+
+.card .name{
+    margin: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.card .type{
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.card .power{
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+button {
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 8px;
+}
+
+.total-power {
+    position: fixed;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 8px;
+}
+
+.invisible{
+    display: none;
+}
