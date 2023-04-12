@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #23244a;
+}
+
+.content{
+    display: flex;
+}
+
+.upper-logo{
+    height: 50px;
+    background-image: linear-gradient(to bottom, #23244a, #393a68);
+}
+
+.lower-logo{
+    height: 50px;
+    background-image: linear-gradient(to bottom, #393a68, #23244a);
+}
+
+.logo{
+    background-color: #393a68;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.logo svg{
+    margin: 10px;
+}
+
+.logo p{
+    font-size: large;
+    margin: 10px;
+    color: #58b0e2;
+    /* background: linear-gradient(to right, #9ecca3, #58b0e2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.content .cards .card{
+    position: relative;
+    height: 550px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    background-color: #373b69;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.content .cards .card:hover .overview {
+    transform: translateY(0%);
+}
+
+
+.content .cards .card .overview{
+    background-color: #fff;
+    padding: 1.5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    transform: translateY(-101%);
+    transition: transform 0.3s ease-in;
+}
+
+.content .cards .card .overview h1{
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+
+.content .cards .card .overview p{
+    margin-top: 20px;
+    letter-spacing: 1.25px;
+    line-height: 20px;
+}
+
+
+.content .cards .card img{
+    width: 100%; 
+    height: 80%; 
+    object-fit: cover;
+
+}
+
+.content .cards .card h2{
+    margin: 10px 10px 10px 10px;
+    color: white;
+}
+
+.content .cards .card h3{
+    width: 50px;
+    height: 30px;
+    padding: 4px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #23244a;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
