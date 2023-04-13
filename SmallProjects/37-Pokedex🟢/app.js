@@ -12,6 +12,7 @@ createBtn.addEventListener("click", function(){
         contentElement.remove()
     });
 
+    
     totalPower.classList.remove("invisible");
 
 
