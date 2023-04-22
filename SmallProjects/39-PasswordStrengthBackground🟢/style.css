@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.outer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.background{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("./pexels-cottonbro-studio-6153354.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(100px);
+    z-index: -1;
+}
+
+
+.outer-content form{
+    width: 450px;
+    height: 400px;
+    background-color: #EEE;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.outer-content form h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.outer-content form h4{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.content .email-label{
+    display: block;
+    margin: 10px 0px;
+}
+
+.content .email-input{
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.content .password-label{
+    display: block;
+    margin: 10px 0px;
+
+}
+
+.content .password-input{
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.content button{
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+}
