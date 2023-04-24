@@ -1,0 +1,79 @@
+:root{
+    --main-bg-color: #3d3a96;
+    --content-bg-color: #24225a;
+    --darker-bg-color: #161436;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.content{
+    width: 400px;
+    height: 430px;
+    background-color: var(--content-bg-color);
+    padding: 30px;
+}
+
+.content h1{
+    color: #eee;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.content p{
+    margin: 25px 0px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    color: #eee;
+    font-weight: 100;
+}
+
+.content .password-wrapper #password{
+    width: 100%;
+    font-size: 15px;
+    background-color: var(--darker-bg-color);
+    padding: 10px;   
+    color: #eee;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 37px;
+}
+
+
+.content .password-wrapper button{
+    position: absolute;
+    transform: translate(307px, -34px );
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    color: #eee;
+    background-color: var(--main-bg-color);
+    border: none;
+    cursor: pointer;
+}
+
+.content .generate{
+    color: #eee;
+    background-color: var(--main-bg-color);
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px; 
+}
