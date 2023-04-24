@@ -120,13 +120,12 @@ body{
 
 }
 
-.info .repos a{
+.info .repos span{
     all: unset;
     margin: 0px 10px 0px 0px;
     padding: 5px;
     background-color: #252970;
     color: #ddd;
-    cursor: pointer;
     font-size: 12px;
 }
 

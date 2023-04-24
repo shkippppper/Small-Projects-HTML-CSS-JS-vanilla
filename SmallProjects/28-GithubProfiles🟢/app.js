@@ -30,6 +30,20 @@ function createUserCard(user){
         oldError.remove()
     }
 
+    if(user.location == null){
+        var location = "Unknown"
+    }
+    else{
+        var location = user.location
+    }
+
+    if(user.hireable){
+        var hireable = "Yes";
+    }else{
+        var hireable = "No";
+    }
+
+
     const userDivElement = document.createElement('div');
 
     userDivElement.classList.add("card")
@@ -54,11 +68,8 @@ function createUserCard(user){
             </div>
         </div>
         <div class="repos">
-            <a href="https://google.com">repo1</a>
-            <a href="https://google.com">repo1</a>
-            <a href="https://google.com">repo1</a>
-            <a href="https://google.com">repo1</a>
-            <a href="https://google.com">repo1</a>
+            <span>Location: ${location} </span>
+            <span>Hireable: ${hireable} </span>
         </div>
     </div>
     `
