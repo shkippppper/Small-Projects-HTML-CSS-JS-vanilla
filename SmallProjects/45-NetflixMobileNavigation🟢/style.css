@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content .fa-bars{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.content .center-image{
+    background-image: url(logo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    height: 200px;
+    width: 200px;
+}
+
+nav .main{
+    position: absolute;
+    left: -400px;
+    transition: transform 1.5s ease;
+    top: 0;
+    background-color: white;
+    width: 300px;
+    height: 100vh;
+    z-index: 3;
+
+}
+
+nav .main img{
+    margin: 20px;
+}
+
+nav .close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #b2b2b2;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav .active{
+    transform: translate(400px);
+
+}
+
+nav .main ul li{
+    list-style: none;    
+    margin: 20px;
+    cursor: pointer;
+}
+
+nav .main ul li a{
+    all: unset;
+
+}
+
+nav .red{
+    position: absolute;
+    left: -380px;
+    transition: transform 1s ease;
+    top: 0;
+    background-color: rgb(212, 0, 0);
+    width: 300px;
+    height: 100vh;
+    z-index: 2;
+
+}
+
+nav .black{
+    position: absolute;
+    left: -360px;
+    transition: transform 0.5s ease;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 100vh;
+    z-index: 1;
+
+}
