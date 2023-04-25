@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: #96d7f2;
+    flex-direction: column;
+}
+
+.add{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #a7c768;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.notes{
+    display: flex;
+    align-items: start;
+    margin: 50px 30px 30px 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.note{
+    margin: 20px;
+}
+
+.note .manage{
+    background-color: #a7c768;
+    padding: 10px;
+
+    color: white;
+}
+
+.note .manage .fa-solid{
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+textarea {
+    resize: none;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+textarea:focus{
+    font-size: 20px;
+
+}
