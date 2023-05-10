@@ -56,7 +56,9 @@
 | 50 | [Insect Catch Game](https://github.com/shkippppper/50Projects25Days/tree/main/SmallProjects/50-InsectCatchGame)  | [Live Demo]()  |
 | 51 | [TicTacToe](https://github.com/shkippppper/50-Projects-HTML-CSS-JS/tree/main/SmallProjects/51-TicTacToe)  | [Live Demo]()  |
 | 52 | [Color Gradient Maker](https://github.com/shkippppper/Small-Projects-HTML-CSS-JS-vanilla/tree/main/SmallProjects/52-ColorGradientMaker)  | [Live Demo]()  |
-
+| 53 | [Calendar](https://github.com/shkippppper/Small-Projects-HTML-CSS-JS-vanilla/tree/master/SmallProjects/53-Calendar🟢)  | [Live Demo]()  |
+| 54 | [SlideChange](https://github.com/shkippppper/Small-Projects-HTML-CSS-JS-vanilla/tree/master/SmallProjects/54-SlideChange🟢)  | [Live Demo]()  |
+| 55 | [RngColor](https://github.com/shkippppper/Small-Projects-HTML-CSS-JS-vanilla/tree/master/SmallProjects/55-RNGColor🟢)  | [Live Demo]()  |
 
 
 
