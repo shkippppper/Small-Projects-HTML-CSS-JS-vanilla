@@ -1,0 +1,88 @@
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #5880b2;
+}
+form {
+  background-color: #354d6b;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  margin: 0 auto;
+}
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 30px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  padding: 10px 0px;
+  font-size: 20px;
+  border-bottom: 2px #fff solid;
+  color: white;
+}
+
+input:focus,
+input:valid{
+    outline: none;
+    border-bottom-color: lightblue;
+} 
+
+input:focus + label,
+input:valid + label{
+    transform: translateY(-100px);
+    color: lightblue;
+
+} 
+
+input[type="submit"] {
+  background-color: #b7d7e5;
+  color: #354d6b;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin: 20px 0px;
+}
+input[type="submit"]:hover {
+  background-color: #7e9eab;
+
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+}
+
+
+.email-label,
+.password-label{
+    color: #ffffff;
+    position: absolute;
+    transform: translate(0px, -60px);
+    transition: transform 0.3s cubic-bezier(0.1, 0.66, 0.6, 2);
+
+}
+
+
+h3{
+    color: #ffffff;
+    text-align: center;
+
+}
+h3 span{
+    color: #7e9eab;
+    cursor: pointer;
+}
